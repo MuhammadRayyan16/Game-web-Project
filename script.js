@@ -2,6 +2,7 @@ var crsr = document.querySelector("#cursor");
 var blur = document.querySelector("#cursor-blur");
 
 
+
 document.addEventListener("mousemove", function (dets) {
   crsr.style.left = dets.x + "px";
   crsr.style.top = dets.y + "px";
@@ -23,6 +24,7 @@ h4all.forEach(function (elem) {
     crsr.style.backgroundColor = "#95C11E";
   });
 });
+
 
 
 gsap.to("#nav", {
