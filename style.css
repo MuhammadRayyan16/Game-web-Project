@@ -6,6 +6,7 @@
     color: #fff;
 }
 
+
 html,
 body {
     height: 100%;
@@ -18,11 +19,13 @@ body {
     color: #95c11e;
 }
 
+
 body::-webkit-scrollbar {
     display: block;
     width: 8px;
     background: #95c11e;
 }
+
 
 body::-webkit-scrollbar-thumb {
     background-color: #fff;
@@ -30,9 +33,11 @@ body::-webkit-scrollbar-thumb {
     border-radius: 50px;
 }
 
+
 body {
     overflow-x: hidden;
 }
+
 
 #cursor {
     height: 20px;
